@@ -6,7 +6,13 @@ Default listening port is 2223.
 ## Build
 
 ```sh
-docker build https://github.com/bjuretko/docker-alpine-sshd.git#main:docker -t sshd
+docker build -t sshd https://github.com/bjuretko/docker-alpine-sshd.git#main:docker
+```
+
+or
+
+```sh
+docker build -t sshd .
 ```
 
 ## Run
